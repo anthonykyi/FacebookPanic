@@ -9,6 +9,11 @@
   //   return;
   // }
   // window.hasRun = true;
+
+  function logOffFacebook() {
+    FB.logout(function(response) {
+   // Person is now logged out
+});
   
   function deletePosts() {
     
